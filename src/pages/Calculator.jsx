@@ -142,7 +142,8 @@ export const Calculator = () => {
     )
 }
 
-const getRiskMessage = (probability) => {
+const getRiskMessage = probability => {
+    probability = probability.toFixed(2)
     if (probability <= 0.24) {
         return <div className="bg-danger message-result">Крайне высокий риск</div>
     } else if (probability >= 0.25 && probability <= 0.45) {
