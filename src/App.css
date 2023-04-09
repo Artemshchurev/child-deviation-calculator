@@ -1,3 +1,7 @@
+body {
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -21,6 +25,33 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.about-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(12px + 1vmin);
+  color: white;
+}
+
+.about-paragraph {
+  text-align: justify;
+}
+
+.roc-graph {
+  width: 450px;
+  border-radius: 20px;
+}
+
+.link-to-page {
+  color: white;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.link-to-page:hover {
   color: white;
 }
 
