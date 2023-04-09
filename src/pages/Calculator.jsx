@@ -25,8 +25,8 @@ export const Calculator = () => {
             <header className="App-header">
                 <Link to="/about" className="link-to-page">О приложении</Link>
                 <Container style={{width: '1000px'}}>
-                    <h2>Калькулятор риска отклонений в развитии детей имевших факторы риска в раннем возрасте</h2>
-                    <h3>Формула бинарная логическая регрессия</h3>
+                    <h2>Калькулятор вероятности отклонений нервно-психического развития детей 4-6 лет, имевших факторы риска в
+                        раннем возрасте</h2>
                     <Row className="mt-4">
                         <Col className="switch-container">
                             <div className="switch-container">
@@ -53,7 +53,8 @@ export const Calculator = () => {
                                 <Form.Check inline type="switch" checked={x3} onChange={() => setX3(!x3)}/>
                                 <div className="text-block">
                                     <div>Течение родов</div>
-                                    <span className="description">(Осложнённые - не отмечено, физиологичные - отмечено)</span>
+                                    <span
+                                        className="description">(Осложнённые - не отмечено, физиологичные - отмечено)</span>
                                 </div>
                             </div>
                         </Col>
@@ -62,7 +63,8 @@ export const Calculator = () => {
                                 <Form.Check inline type="switch" checked={x4} onChange={() => setX4(!x4)}/>
                                 <div className="text-block">
                                     <div>Течение беременности</div>
-                                    <span className="description">(Осложнённые - не отмечено, физиологичные - отмечено)</span>
+                                    <span
+                                        className="description">(Осложнённые - не отмечено, физиологичные - отмечено)</span>
                                 </div>
                             </div>
                         </Col>
@@ -82,7 +84,8 @@ export const Calculator = () => {
                                 <Form.Check inline type="switch" checked={x6} onChange={() => setX6(!x6)}/>
                                 <div className="text-block">
                                     <div>Масса при рождении</div>
-                                    <span className="description">(Ниже 2500гр - не отмечено, выше 2500гр - отмечено)</span>
+                                    <span
+                                        className="description">(Ниже 2500гр - не отмечено, выше 2500гр - отмечено)</span>
                                 </div>
                             </div>
                         </Col>
@@ -102,7 +105,8 @@ export const Calculator = () => {
                                 <Form.Check inline type="switch" checked={x8} onChange={() => setX8(!x8)}/>
                                 <div className="text-block">
                                     <div>График вакцинации</div>
-                                    <span className="description">(Нарушен - не отмечено, по календарю - отмечено)</span>
+                                    <span
+                                        className="description">(Нарушен - не отмечено, по календарю - отмечено)</span>
                                 </div>
                             </div>
                         </Col>
@@ -128,7 +132,7 @@ export const Calculator = () => {
                         </Col>
                     </Row>
                     <div className="result-container mt-4">
-                        Коэффициент Z: {zCoefficient.toFixed(1)}<br />
+                        Коэффициент Z: {zCoefficient.toFixed(1)}<br/>
                         Вероятность (P): {probability}
                         {getRiskMessage(probability)}
                     </div>
