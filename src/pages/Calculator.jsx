@@ -146,7 +146,7 @@ const getRiskMessage = probability => {
     probability = probability.toFixed(2)
     if (probability <= 0.24) {
         return <div className="bg-danger message-result">Крайне высокий риск</div>
-    } else if (probability >= 0.25 && probability <= 0.45) {
+    } else if (probability >= 0.25 && probability <= 0.49) {
         return <div style={{backgroundColor: 'orange'}} className="message-result">Высокий риск</div>
     } else if (probability >= 0.5 && probability <= 0.74) {
         return <div className="bg-warning message-result">Средний риск</div>
