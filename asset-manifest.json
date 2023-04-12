@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/child-deviation-calculator/static/css/main.14522bcd.css",
-    "main.js": "/child-deviation-calculator/static/js/main.d8d6d431.js",
+    "main.js": "/child-deviation-calculator/static/js/main.f398b2a8.js",
     "static/js/787.140b13e3.chunk.js": "/child-deviation-calculator/static/js/787.140b13e3.chunk.js",
     "static/media/graph.png": "/child-deviation-calculator/static/media/graph.fd3d1eb2b8007183dff4.png",
     "index.html": "/child-deviation-calculator/index.html",
     "main.14522bcd.css.map": "/child-deviation-calculator/static/css/main.14522bcd.css.map",
-    "main.d8d6d431.js.map": "/child-deviation-calculator/static/js/main.d8d6d431.js.map",
+    "main.f398b2a8.js.map": "/child-deviation-calculator/static/js/main.f398b2a8.js.map",
     "787.140b13e3.chunk.js.map": "/child-deviation-calculator/static/js/787.140b13e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14522bcd.css",
-    "static/js/main.d8d6d431.js"
+    "static/js/main.f398b2a8.js"
   ]
 }
